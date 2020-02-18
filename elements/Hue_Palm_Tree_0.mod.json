@@ -1,0 +1,25 @@
+{
+  "_fv": 5,
+  "_type": "structure",
+  "definition": {
+    "structure": "hue_palm_tree_0",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 1000000,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -4,
+    "spawnWorldTypes": [
+      "CUSTOM:Pandora"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:Hue_Palm_Grass"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Hue_Palm_Forest"
+      }
+    ]
+  }
+}

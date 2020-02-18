@@ -1,0 +1,30 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hue_shovel",
+    "customModelName": "Normal",
+    "name": "Hue Palm Shovel",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 6.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Hue_Palm_Planks"
+      }
+    ],
+    "onRightClickedOnBlock": {
+      "name": "Hue_Palm_Shovel_Right_Click_On_Block"
+    }
+  }
+}

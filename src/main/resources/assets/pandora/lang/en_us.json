@@ -1,1 +1,18 @@
-{}
+{
+  "item.pandora.hue_palm_pickaxe": "Hue Palm Pickaxe",
+  "block.pandora.mossy_cobblestone": "Mossy Cobblestone",
+  "item.pandora.pandora": "Pandora Portal Igniter",
+  "biome.pandora.hue_palm_forest": "Kapok",
+  "item.pandora.hue_palm_axe": "Hue Palm Axe",
+  "block.pandora.hue_palm_planks": "Hue Palm Planks",
+  "block.pandora.hue_palm_log": "Hue Log",
+  "item.pandora.hue_palm_hoe": "Hue Palm Hoe",
+  "block.pandora.hue_palm_grass": "Kapok Grass",
+  "itemGroup.tabpandora_tab": "Pandora",
+  "block.pandora.stripped_hue_palm_log": "Stripped Hue Log",
+  "block.pandora.dirt": "Dirt",
+  "block.pandora.hue_palm_leaves": "Hue Palm Leaves",
+  "item.pandora.hue_palm_shovel": "Hue Palm Shovel",
+  "block.pandora.stone": "Stone",
+  "block.pandora.cobblestone": "Cobblestone"
+}

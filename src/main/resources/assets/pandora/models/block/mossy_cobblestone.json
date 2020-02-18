@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pandora:blocks/mossy_cobblestone",
+    "up": "pandora:blocks/mossy_cobblestone",
+    "north": "pandora:blocks/mossy_cobblestone",
+    "east": "pandora:blocks/mossy_cobblestone",
+    "south": "pandora:blocks/mossy_cobblestone",
+    "west": "pandora:blocks/mossy_cobblestone",
+    "particle": "pandora:blocks/mossy_cobblestone"
+  }
+}

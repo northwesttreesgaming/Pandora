@@ -1,0 +1,30 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hue_hoe",
+    "customModelName": "Normal",
+    "name": "Hue Palm Hoe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Hue_Palm_Planks"
+      }
+    ],
+    "onRightClickedOnBlock": {
+      "name": "Hue_Palm_Hoe_Right_Click_On_Block"
+    }
+  }
+}

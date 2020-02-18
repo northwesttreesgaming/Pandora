@@ -1,0 +1,13 @@
+{
+  "group": "pandora",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pandora:hue_palm_log"
+    }
+  ],
+  "result": {
+    "item": "pandora:hue_palm_leaves",
+    "count": 4
+  }
+}

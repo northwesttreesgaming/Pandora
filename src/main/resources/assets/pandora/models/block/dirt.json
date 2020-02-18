@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pandora:blocks/dirt",
+    "up": "pandora:blocks/dirt",
+    "north": "pandora:blocks/dirt",
+    "east": "pandora:blocks/dirt",
+    "south": "pandora:blocks/dirt",
+    "west": "pandora:blocks/dirt",
+    "particle": "pandora:blocks/dirt"
+  }
+}

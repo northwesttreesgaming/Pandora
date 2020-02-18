@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pandora:blocks/hue_palm_log_end",
+    "up": "pandora:blocks/hue_palm_log_end",
+    "north": "pandora:blocks/hue_palm_log_side",
+    "east": "pandora:blocks/hue_palm_log_side",
+    "south": "pandora:blocks/hue_palm_log_side",
+    "west": "pandora:blocks/hue_palm_log_side",
+    "particle": "pandora:blocks/hue_palm_log_end"
+  }
+}

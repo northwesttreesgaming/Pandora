@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pandora:blocks/stone",
+    "up": "pandora:blocks/stone",
+    "north": "pandora:blocks/stone",
+    "east": "pandora:blocks/stone",
+    "south": "pandora:blocks/stone",
+    "west": "pandora:blocks/stone",
+    "particle": "pandora:blocks/stone"
+  }
+}
