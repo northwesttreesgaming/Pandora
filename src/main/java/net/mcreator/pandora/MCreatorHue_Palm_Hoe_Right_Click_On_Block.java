@@ -46,7 +46,7 @@ public class MCreatorHue_Palm_Hoe_Right_Click_On_Block extends Elementspandora.M
 		int z = (int) dependencies.get("z");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		World world = (World) dependencies.get("world");
-		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == MCreatorHue_Palm_Grass.block.getDefaultState().getBlock())) {
+		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == MCreatorHue_Grass.block.getDefaultState().getBlock())) {
 			world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.FARMLAND.getDefaultState(), 3);
 			if ((!((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).abilities.isCreativeMode : false))) {
 				if (itemstack.attemptDamageItem((int) 1, new Random(), null)) {

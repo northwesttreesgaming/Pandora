@@ -37,14 +37,14 @@ import java.util.List;
 import java.util.Collections;
 
 @Elementspandora.ModElement.Tag
-public class MCreatorHue_Palm_Grass extends Elementspandora.ModElement {
-	@ObjectHolder("pandora:hue_palm_grass")
+public class MCreatorHue_Grass extends Elementspandora.ModElement {
+	@ObjectHolder("pandora:hue_grass")
 	public static final Block block = null;
-	@ObjectHolder("pandora:hue_palm_grass")
+	@ObjectHolder("pandora:hue_grass")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
-	public MCreatorHue_Palm_Grass(Elementspandora instance) {
-		super(instance, 27);
+	public MCreatorHue_Grass(Elementspandora instance) {
+		super(instance, 47);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -56,14 +56,14 @@ public class MCreatorHue_Palm_Grass extends Elementspandora.ModElement {
 
 	@SubscribeEvent
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("hue_palm_grass"));
+		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("hue_grass"));
 	}
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.PLANT).hardnessAndResistance(0.6f, 3f).lightValue(0).harvestLevel(3)
 					.harvestTool(ToolType.SHOVEL));
-			setRegistryName("hue_palm_grass");
+			setRegistryName("hue_grass");
 		}
 
 		@Override
@@ -153,7 +153,7 @@ public class MCreatorHue_Palm_Grass extends Elementspandora.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("hue_palm_grass");
+			return new StringTextComponent("hue_grass");
 		}
 
 		@Override

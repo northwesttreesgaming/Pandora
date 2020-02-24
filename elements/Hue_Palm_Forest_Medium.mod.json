@@ -2,7 +2,7 @@
   "_fv": 5,
   "_type": "biome",
   "definition": {
-    "name": "Hue Palm Forest",
+    "name": "Hue Palm Forest M",
     "groundBlock": {
       "value": "CUSTOM:Hue_Grass"
     },
@@ -51,8 +51,8 @@
     "deadBushesPerChunk": 0,
     "rainingPossibility": 0.66,
     "temperature": 0.95,
-    "baseHeight": 0.1,
-    "heightVariation": 0.15,
+    "baseHeight": 0.2,
+    "heightVariation": 0.4,
     "spawnBiome": false,
     "biomeWeight": 10,
     "biomeType": "WARM",

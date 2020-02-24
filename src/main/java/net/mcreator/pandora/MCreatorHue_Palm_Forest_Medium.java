@@ -10,12 +10,12 @@ import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
 
 @Elementspandora.ModElement.Tag
-public class MCreatorHue_Palm_Forest extends Elementspandora.ModElement {
-	@ObjectHolder("pandora:hue_palm_forest")
+public class MCreatorHue_Palm_Forest_Medium extends Elementspandora.ModElement {
+	@ObjectHolder("pandora:hue_palm_forest_medium")
 	public static final CustomBiome biome = null;
 
-	public MCreatorHue_Palm_Forest(Elementspandora instance) {
-		super(instance, 24);
+	public MCreatorHue_Palm_Forest_Medium(Elementspandora instance) {
+		super(instance, 53);
 	}
 
 	@Override
@@ -32,8 +32,8 @@ public class MCreatorHue_Palm_Forest extends Elementspandora.ModElement {
 		public CustomBiome() {
 			super(new Biome.Builder()
 					.downfall(0.66f)
-					.depth(0.1f)
-					.scale(0.15f)
+					.depth(0.2f)
+					.scale(0.4f)
 					.temperature(0.95f)
 					.precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.JUNGLE)
@@ -44,7 +44,7 @@ public class MCreatorHue_Palm_Forest extends Elementspandora.ModElement {
 							SurfaceBuilder.DEFAULT,
 							new SurfaceBuilderConfig(MCreatorHue_Grass.block.getDefaultState(), MCreatorDirt.block.getDefaultState(),
 									MCreatorDirt.block.getDefaultState())));
-			setRegistryName("hue_palm_forest");
+			setRegistryName("hue_palm_forest_medium");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);

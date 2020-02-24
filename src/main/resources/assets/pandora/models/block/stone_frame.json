@@ -1,0 +1,10 @@
+{
+  "parent": "pandora:custom/stone_frame",
+  "textures": {
+    "all": "pandora:blocks/stone_frame_side_1",
+    "particle": "pandora:blocks/stone_frame_side_1",
+    "end": "pandora:blocks/stone_frame_end",
+    "side0": "pandora:blocks/stone_frame_side_0",
+    "side1": "pandora:blocks/stone_frame_side_1"
+  }
+}

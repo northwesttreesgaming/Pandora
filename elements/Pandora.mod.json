@@ -3,22 +3,22 @@
   "_type": "dimension",
   "definition": {
     "portalFrame": {
-      "value": ""
+      "value": "CUSTOM:Stone_Frame"
     },
     "portalParticles": {
       "value": "PORTAL"
     },
-    "portalLuminance": 0.0,
+    "portalLuminance": 0.5,
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Pandora Portal Igniter",
+    "igniterName": "Pandora Artifact",
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "",
-    "portalTexture": "",
-    "enablePortal": false,
+    "texture": "pandora_artifact",
+    "portalTexture": "pandora_portal",
+    "enablePortal": true,
     "biomesInDimension": [
       {
         "value": "CUSTOM:Hue_Palm_Forest"

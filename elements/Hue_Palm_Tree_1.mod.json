@@ -2,12 +2,12 @@
   "_fv": 5,
   "_type": "structure",
   "definition": {
-    "structure": "hue_palm_tree_0",
+    "structure": "hue_palm_tree_1",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 1000000,
+    "spawnProbability": 500000,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": -4,
+    "spawnHeightOffset": -3,
     "spawnWorldTypes": [
       "CUSTOM:Pandora"
     ],

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "end": "stone_frame_end",
+        "side0": "stone_frame_side_0",
+        "side1": "stone_frame_side_1"
+      },
+      "name": "default"
+    }
+  }
+}

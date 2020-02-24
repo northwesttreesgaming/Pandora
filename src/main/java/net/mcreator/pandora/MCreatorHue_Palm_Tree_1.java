@@ -27,9 +27,9 @@ import net.minecraft.block.BlockState;
 import java.util.Random;
 
 @Elementspandora.ModElement.Tag
-public class MCreatorHue_Palm_Tree_0 extends Elementspandora.ModElement {
-	public MCreatorHue_Palm_Tree_0(Elementspandora instance) {
-		super(instance, 46);
+public class MCreatorHue_Palm_Tree_1 extends Elementspandora.ModElement {
+	public MCreatorHue_Palm_Tree_1(Elementspandora instance) {
+		super(instance, 51);
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class MCreatorHue_Palm_Tree_0 extends Elementspandora.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 1000000) {
+				if ((random.nextInt(1000000) + 1) <= 500000) {
 					i += random.nextInt(16) + 8;
 					k += random.nextInt(16) + 8;
 					int j = iworld.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
@@ -57,12 +57,12 @@ public class MCreatorHue_Palm_Tree_0 extends Elementspandora.ModElement {
 					if (!blockCriteria)
 						return false;
 					Template template = ((ServerWorld) iworld.getWorld()).getSaveHandler().getStructureTemplateManager()
-							.getTemplateDefaulted(new ResourceLocation("pandora", "hue_palm_tree_0"));
+							.getTemplateDefaulted(new ResourceLocation("pandora", "hue_palm_tree_1"));
 					if (template == null)
 						return false;
 					Rotation rotation = Rotation.values()[random.nextInt(3)];
 					Mirror mirror = Mirror.values()[random.nextInt(2)];
-					BlockPos spawnTo = new BlockPos(i, j + -4, k);
+					BlockPos spawnTo = new BlockPos(i, j + -3, k);
 					template.addBlocksToWorldChunk(iworld, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
 							.setChunk((ChunkPos) null).setIgnoreEntities(false));
 					return true;
